@@ -1,0 +1,163 @@
+/* Itim Font */
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+
+/* Girassol Font */
+@import url('https://fonts.googleapis.com/css2?family=Girassol&family=Itim&display=swap');
+
+body{
+    width: 100%;
+    /* min-height: 100vh; */
+    /* background-image: url(https://images.unsplash.com/photo-1619472351888-f844a0b33f5b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80); */
+
+    /* background-image: url(https://cdn.wallpapersafari.com/74/99/M67dUT.jpg);
+
+    background-image: url(https://images.pexels.com/photos/775201/pexels-photo-775201.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+
+    background-image: url(https://images.pexels.com/photos/131723/pexels-photo-131723.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500); */
+
+    background-image: url(https://images.pexels.com/photos/2440021/pexels-photo-2440021.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+.main-container{
+    margin: auto;
+    width: 450px;
+    height: 550px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+.container{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    /* background-color: rgba(255,250,250 , 1); */
+    box-shadow: 0px 0px 55px black;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(5px);
+    /* overflow-y: scroll; */
+    overflow: auto;
+    color: black;
+    width: 400px;
+    height: 400px;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.container h1{
+    margin: 10px;
+    text-align: center;
+    /* color: black;
+    color: darkgoldenrod; */
+    color: darkorange;
+}
+
+.container .input{
+    position: absolute;
+    left: 35px;
+    width: 280px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.addButton{
+    cursor: pointer;
+    font-size: 25px;
+    position: absolute;
+    right: 42px;
+    top: 65px;
+}
+
+.list-group{
+    margin-left: 35px;
+    padding: 0px;
+    margin-top: 80px;
+}
+
+.list-group-item{
+    position: relative;
+    width: 80%;
+    margin-bottom: 8px;
+    font-size: 20px;
+    border-radius: 3px;
+    list-style: none;
+    padding: 15px;
+    background-color: khaki;
+    transition: 0.3s;
+}
+
+.list-group-item:hover{
+    transform: scale(1.1);
+}
+
+.fa-check{
+    position: absolute;
+    right: 40px;
+    color: green;
+    font-size: 25px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.fa-trash-alt{
+    position: absolute;
+    right: 10px;
+    color: red;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+/* .buttons{
+    display: flex;
+    justify-content: space-around;
+
+} */
+
+.buttons{
+    text-align: center;
+}
+.clearAll, .clearAllCompleted{
+    border-radius: 3px;
+    margin: 0px 35px;
+    display: inline-block;
+    cursor: pointer;
+    position: relative;
+    width: 100px;
+    background-color: lightblue;
+    /* left: calc(35% - 50px); */
+    top: 425px;
+    text-align: center;
+    padding: 8px 8px;
+    transition: 0.3s;
+}
+
+.clearAll:hover{
+    background-color: red;
+    color: white;
+}
+
+.clearAllCompleted:hover{
+    background-color: red;
+    color: white;
+}
+
+.dateAndTime, .date{
+    text-align: center;
+    font-size: 25px;
+    font-family: Itim;
+
+
+}
